@@ -40,7 +40,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            imsyy/splayer
+            dominico/splayer
             ghcr.io/${{ github.repository }}
       # 构建并推送 Docker 镜像
       - name: Build and push Docker image
